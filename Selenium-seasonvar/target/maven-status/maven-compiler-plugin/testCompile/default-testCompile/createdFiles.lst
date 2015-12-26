@@ -1,0 +1,9 @@
+com\epam\testing\pages\Comment.class
+com\epam\testing\pages\MainPage.class
+com\epam\testing\SeasonAutomationTest.class
+com\epam\testing\steps\Steps.class
+com\epam\testing\pages\LoginPage.class
+com\epam\testing\pages\AbstractPage.class
+com\epam\testing\pages\PausePage.class
+com\epam\testing\pages\Search.class
+com\epam\testing\utils\Utils.class

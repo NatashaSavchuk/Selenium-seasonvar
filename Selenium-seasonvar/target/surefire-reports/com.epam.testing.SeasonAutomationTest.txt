@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.testing.SeasonAutomationTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 131.968 sec <<< FAILURE!
+oneCanSearch(com.epam.testing.SeasonAutomationTest)  Time elapsed: 14.341 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.epam.testing.SeasonAutomationTest.oneCanSearch(SeasonAutomationTest.java:35)
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.epam.testing.SeasonAutomationTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.epam.testing.SeasonAutomationTest">
+        <methods>
+          <include name="stopBrowser"/>
+          <include name="oneCanSearch"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.testing.SeasonAutomationTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.epam.testing.SeasonAutomationTest] -->

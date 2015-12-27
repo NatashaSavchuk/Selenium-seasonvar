@@ -1,79 +1,268 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="1" name="com.epam.testing.SeasonAutomationTest" time="88.407" errors="0" skipped="0">
+<testsuite tests="12" failures="3" name="com.epam.testing.SeasonAutomationTest" time="701.788" errors="0" skipped="9">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
-    <property name="java.vm.version" value="25.60-b23"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\LESSON\4 курс\Testing"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="RU"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="selenium-test"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\LESSON\4 курс\Testing"/>
-    <property name="java.runtime.version" value="1.8.0_60-b27"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\836D~1\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="c:\Program Files\Java\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="f12bf286f44c2bbe"/>
+    <property name="POM_ARTIFACTID" value="proj"/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Program Files\Java\Maven\apache-maven-3.3.3\bin\m2.conf"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;c:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;c:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;c:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="proj"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="user.name" value="NATALIAP$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="user.language" value="ru"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Europe/Kaliningrad"/>
+    <property name="USERNAME" value="NATALIAP$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\Maven\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;."/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="DEVMGR_SHOW_DETAILS" value="&amp;#1;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.1"/>
-    <property name="user.home" value="C:\Users\Администратор"/>
-    <property name="user.timezone" value="Europe/Kaliningrad"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1251"/>
-    <property name="user.name" value="Администратор"/>
-    <property name="java.class.path" value="C:\Program Files\Java\Maven\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="ru"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="RU"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="VS140COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\"/>
+    <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_60\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_60"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp866"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\Java\Maven\apache-maven-3.3.3"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="os.version" value="6.1"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="AMDAPPSDKROOT" value="C:\Program Files (x86)\AMD APP\"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="DEVMGR_SHOW_NONPRESENT_DEVICES" value="&amp;#1;"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="c:\Program Files\Java\jdk1.8.0_60\"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp866"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="NATALIAP"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="proj"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="BUILD_TAG" value="jenkins-selenium-test-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="f12bf286f44c2bbe"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Program Files\Java\Maven\apache-maven-3.3.3\/bin;c:\Program Files\Java\jdk1.8.0_60\/bin;c:\Program Files\Java\jdk1.8.0_60\/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\Maven\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files\Java\Maven\apache-maven-3.3.3"/>
+    <property name="java.class.path" value="c:\Program Files\Java\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;c:\Program Files\Java\Maven\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar;c:\Program Files\Java\Maven\apache-maven-3.3.3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main c:\Program Files\Java\Maven\apache-maven-3.3.3\ C:\Program Files\Java\.jenkins\war\WEB-INF\lib\remoting-2.53.2.jar c:\Program Files\Java\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar c:\Program Files\Java\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 56017"/>
+    <property name="Path" value="c:\Program Files\Java\jdk1.8.0_60\/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\Maven\apache-maven-3.3.3\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="c:\Program Files\Java\jdk1.8.0_60\/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="c:\Program Files\Java\Maven\apache-maven-3.3.3\"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="c:\Program Files\Java\.jenkins"/>
+    <property name="PATH+MAVEN" value="c:\Program Files\Java\Maven\apache-maven-3.3.3\/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/selenium-test/3/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\LESSON\4 курс\Testing\Selenium-seasonvar"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/selenium-test/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="c:\Program Files\Java\Maven\apache-maven-3.3.3\"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="BASE" value="c:\Program Files\Java\.jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="c:\Program Files\Java\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="c:\Program Files\Java\.jenkins\jobs\selenium-test\workspace"/>
+    <property name="maven3.interceptor.common" value="c:\Program Files\Java\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="WINSW_EXECUTABLE" value="c:\Program Files\Java\.jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanAddComment" time="10.887"/>
-  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanDeleteMark" time="31.703"/>
-  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanLoginSeason" time="9.443"/>
-  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanMarkOfSeries" time="22.033"/>
-  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanSearch" time="14.341">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.epam.testing.SeasonAutomationTest.oneCanSearch(SeasonAutomationTest.java:35)
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanAddComment" time="114.312">
+    <failure message="Timed out waiting for page load.
+Command duration or timeout: 114.24 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 50c24cf0-4f38-46dc-a055-a796be45d063" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 114.24 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 50c24cf0-4f38-46dc-a055-a796be45d063
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:927)
+	at com.epam.testing.pages.LoginPage.openPage(LoginPage.java:35)
+	at com.epam.testing.steps.Steps.loginSeason(Steps.java:33)
+	at com.epam.testing.SeasonAutomationTest.oneCanAddComment(SeasonAutomationTest.java:58)
+Caused by: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.Utils.initWebLoadingListener/&lt;(file:///C:/Windows/TEMP/anonymous2943834873968423657webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9010)
+	at &lt;anonymous class&gt;.WebLoadingListener/e(file:///C:/Windows/TEMP/anonymous2943834873968423657webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5114)
+	at &lt;anonymous class&gt;.WebLoadingListener/&lt;(file:///C:/Windows/TEMP/anonymous2943834873968423657webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5122)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous2943834873968423657webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
 </failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@33833882
+2015-12-27 14:03:14 INFO  Steps:21 - Browser started
+</system-out>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanDeleteMark" time="113.857">
+    <failure message="Timed out waiting for page load.
+Command duration or timeout: 113.85 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: be8669b7-339c-456f-b487-5b1cdea88ce6" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 113.85 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: be8669b7-339c-456f-b487-5b1cdea88ce6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:927)
+	at com.epam.testing.pages.LoginPage.openPage(LoginPage.java:35)
+	at com.epam.testing.steps.Steps.loginSeason(Steps.java:33)
+	at com.epam.testing.SeasonAutomationTest.oneCanDeleteMark(SeasonAutomationTest.java:50)
+Caused by: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.Utils.initWebLoadingListener/&lt;(file:///C:/Windows/TEMP/anonymous6569293632096970694webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9010)
+	at &lt;anonymous class&gt;.WebLoadingListener/e(file:///C:/Windows/TEMP/anonymous6569293632096970694webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5114)
+	at &lt;anonymous class&gt;.WebLoadingListener/&lt;(file:///C:/Windows/TEMP/anonymous6569293632096970694webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5122)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Windows/TEMP/anonymous6569293632096970694webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+</failure>
+    <system-out>2015-12-27 14:07:01 INFO  Steps:27 - Browser stopped
+2015-12-27 14:07:10 INFO  Steps:21 - Browser started
+</system-out>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="stopBrowser" time="236.807">
+    <failure message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:511)
+	at com.epam.testing.steps.Steps.closeDriver(Steps.java:26)
+	at com.epam.testing.SeasonAutomationTest.stopBrowser(SeasonAutomationTest.java:66)
+Caused by: org.apache.http.ConnectionClosedException: Premature end of Content-Length delimited message body (expected: 89; received: 0
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:180)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:200)
+	at org.apache.http.impl.io.ContentLengthInputStream.close(ContentLengthInputStream.java:103)
+	at org.apache.http.impl.execchain.ResponseEntityProxy.streamClosed(ResponseEntityProxy.java:140)
+	at org.apache.http.conn.EofSensorInputStream.checkClose(EofSensorInputStream.java:228)
+	at org.apache.http.conn.EofSensorInputStream.close(EofSensorInputStream.java:174)
+	at org.apache.http.util.EntityUtils.consume(EntityUtils.java:88)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.createResponse(ApacheHttpClient.java:112)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:93)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	... 39 more
+</failure>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="setUp" time="236.808">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanLoginSeason" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="stopBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="setUp" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanMarkOfSeries" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="stopBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="setUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="oneCanSearch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.testing.SeasonAutomationTest" name="stopBrowser" time="0.001">
+    <skipped/>
   </testcase>
 </testsuite>

@@ -13,13 +13,13 @@ public class Search extends AbstractPage
     private final Logger logger = Logger.getLogger(Search.class);
     private final String BASE_URL = "http://seasonvar.ru/search?q=&x=38&y=7";
 
-    @FindBy(xpath = "//input[@value='Найти!']")
+    @FindBy(xpath = "//input[@class='form-searchnew']")
     private WebElement buttonSearch;
 
     @FindBy(xpath = "//input[@value='']")
     private WebElement fieldOfSearch;
 
-    @FindBy(xpath = "//a[text()='Стрела']")
+    @FindBy(xpath = "//a[text()='Arrow']")
     private WebElement linkOfSearch;
 
     @FindBy(xpath = "//div[@class='doptxt']")
@@ -56,14 +56,14 @@ public class Search extends AbstractPage
     }
 
     public boolean resultIsNotFound(){
-        String text = "Найдено по запросу \"олджэ\": 0";
+        String text = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ \"пїЅпїЅпїЅпїЅпїЅ\": 0";
         try{
             WebElement element =  driver.findElement(By.xpath("//div[@class='doptxt']"));
         }
         catch(NoSuchElementException e){
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
 /*    public boolean isCurrentSearchEmpty()
     {

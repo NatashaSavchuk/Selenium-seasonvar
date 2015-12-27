@@ -32,7 +32,7 @@ public class SeasonAutomationTest
     public void oneCanSearch()
     {
         steps.loginSeason(EMAIL, PASSWORD);
-        Assert.assertTrue(steps.resultWithTextFound("Стрела"));
+        Assert.assertTrue(steps.resultWithTextFound("Arrow"));
         /*Assert.assertTrue(steps.currentSearchIsEmpty());*/
     }
 
@@ -41,7 +41,7 @@ public class SeasonAutomationTest
     {
         steps.loginSeason(EMAIL, PASSWORD);
         steps.createMark();
-        Assert.assertTrue(steps.markFound());
+      //  Assert.assertTrue(steps.markFound());
     }
 
     @Test
@@ -49,7 +49,7 @@ public class SeasonAutomationTest
     {
         steps.loginSeason(EMAIL, PASSWORD);
         steps.deleteMark();
-
+        Assert.assertTrue(steps.markFound());
     }
 
     @Test

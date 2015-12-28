@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Search extends AbstractPage
 {
     private final Logger logger = Logger.getLogger(Search.class);
-    private final String BASE_URL = "http://seasonvar.ru/search?q=&x=38&y=7";
+    private final String BASE_URL = "http://seasonvar.ru/search?q=&x=42&y=6";
 
     @FindBy(xpath = "//input[@class='form-searchnew']")
     private WebElement buttonSearch;

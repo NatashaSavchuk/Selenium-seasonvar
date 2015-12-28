@@ -32,7 +32,7 @@ public class PausePage extends AbstractPage
     public void openPage()
     {
         driver.navigate().to(BASE_URL);
-        logger.info("Login page opened");
+        logger.info("Series page opened");
     }
 
     public void markOfPause()

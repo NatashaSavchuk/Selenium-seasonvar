@@ -12,7 +12,7 @@ public class MainPage extends AbstractPage
     private final Logger logger = Logger.getLogger(LoginPage.class);
     private final String BASE_URL = "http://seasonvar.ru/";
 
-    @FindBy(xpath = "//input[@value='Найти!']")
+    @FindBy(xpath = "//input[@class='form-searchnew']")
     private WebElement buttonSearch;
 
     @FindBy(xpath = "//input[@value='']")
@@ -33,6 +33,7 @@ public class MainPage extends AbstractPage
     @Override
     public void openPage()
     {
+        logger.info("Main page opened");
         driver.navigate().to(BASE_URL);
     }
 }

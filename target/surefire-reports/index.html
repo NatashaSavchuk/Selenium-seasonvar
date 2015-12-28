@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest">
+              <span class="suite-name border-failed">com.epam.testing.SeasonAutomationTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-com.epam.testing.SeasonAutomationTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-com.epam.testing.SeasonAutomationTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-com.epam.testing.SeasonAutomationTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-com.epam.testing.SeasonAutomationTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-com.epam.testing.SeasonAutomationTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.epam.testing.SeasonAutomationTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-com.epam.testing.SeasonAutomationTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-com.epam.testing.SeasonAutomationTest" class="hide-methods failed suite-com.epam.testing.SeasonAutomationTest"> (hide)</a> <!-- hide-methods failed suite-com.epam.testing.SeasonAutomationTest -->
+                      <a href="#" panel-name="suite-com.epam.testing.SeasonAutomationTest" class="show-methods failed suite-com.epam.testing.SeasonAutomationTest"> (show)</a> <!-- show-methods failed suite-com.epam.testing.SeasonAutomationTest -->
+                    </span>
+                    <div class="method-list-content failed suite-com.epam.testing.SeasonAutomationTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanDeleteMark">oneCanDeleteMark</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanLoginSeason">oneCanLoginSeason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-com.epam.testing.SeasonAutomationTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-com.epam.testing.SeasonAutomationTest" class="hide-methods passed suite-com.epam.testing.SeasonAutomationTest"> (hide)</a> <!-- hide-methods passed suite-com.epam.testing.SeasonAutomationTest -->
+                      <a href="#" panel-name="suite-com.epam.testing.SeasonAutomationTest" class="show-methods passed suite-com.epam.testing.SeasonAutomationTest"> (show)</a> <!-- show-methods passed suite-com.epam.testing.SeasonAutomationTest -->
+                    </span>
+                    <div class="method-list-content passed suite-com.epam.testing.SeasonAutomationTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanAddComment">oneCanAddComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanMarkOfSeries">oneCanMarkOfSeries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanSearch">oneCanSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-com.epam.testing.SeasonAutomationTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-com.epam.testing.SeasonAutomationTest" class="panel com.epam.testing.SeasonAutomationTest">
+          <div class="suite-com.epam.testing.SeasonAutomationTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.testing.SeasonAutomationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneCanDeleteMark">
+                  </a> <!-- oneCanDeleteMark -->
+                  <span class="method-name">oneCanDeleteMark</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 20.04 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2fbe1fd6-e431-41f5-aa67-c4e50d6240fa
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:927)
+	at com.epam.testing.pages.PausePage.openPage(PausePage.java:34)
+	at com.epam.testing.steps.Steps.deleteMark(Steps.java:77)
+	at com.epam.testing.SeasonAutomationTest.oneCanDeleteMark(SeasonAutomationTest.java:51)
+Caused by: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.Utils.initWebLoadingListener/&lt;(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous3039291068507903071webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9010)
+	at &lt;anonymous class&gt;.WebLoadingListener/e(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous3039291068507903071webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5114)
+	at &lt;anonymous class&gt;.WebLoadingListener/&lt;(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous3039291068507903071webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:5122)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous3039291068507903071webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneCanLoginSeason">
+                  </a> <!-- oneCanLoginSeason -->
+                  <span class="method-name">oneCanLoginSeason</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 20.04 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0fcc41cb-9a79-4899-affe-6141a40afb70
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at com.epam.testing.pages.LoginPage.login(LoginPage.java:43)
+	at com.epam.testing.steps.Steps.loginSeason(Steps.java:36)
+	at com.epam.testing.SeasonAutomationTest.oneCanLoginSeason(SeasonAutomationTest.java:27)
+Caused by: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.43.51&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.Utils.installClickListener/e&lt;(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous2794656083068280398webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9269)
+	at &lt;anonymous class&gt;.WebLoadingListener/e(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous2794656083068280398webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:5114)
+	at &lt;anonymous class&gt;.WebLoadingListener/&lt;(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous2794656083068280398webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:5122)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous2794656083068280398webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Login to Seasonvar)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.epam.testing.SeasonAutomationTest-class-failed -->
+          <div class="suite-com.epam.testing.SeasonAutomationTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.testing.SeasonAutomationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneCanAddComment">
+                  </a> <!-- oneCanAddComment -->
+                  <span class="method-name">oneCanAddComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneCanMarkOfSeries">
+                  </a> <!-- oneCanMarkOfSeries -->
+                  <span class="method-name">oneCanMarkOfSeries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneCanSearch">
+                  </a> <!-- oneCanSearch -->
+                  <span class="method-name">oneCanSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-com.epam.testing.SeasonAutomationTest-class-passed -->
+        </div> <!-- panel com.epam.testing.SeasonAutomationTest -->
+        <div panel-name="test-xml-com.epam.testing.SeasonAutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;com.epam.testing.SeasonAutomationTest&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.testing.SeasonAutomationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- com.epam.testing.SeasonAutomationTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-com.epam.testing.SeasonAutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for com.epam.testing.SeasonAutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-com.epam.testing.SeasonAutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for com.epam.testing.SeasonAutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-com.epam.testing.SeasonAutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for com.epam.testing.SeasonAutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_com.epam.testing.SeasonAutomationTest');
+function tableData_com.epam.testing.SeasonAutomationTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'oneCanDeleteMark')
+data.setCell(0, 2, 'com.epam.testing.SeasonAutomationTest')
+data.setCell(0, 3, 46058);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'oneCanAddComment')
+data.setCell(1, 2, 'com.epam.testing.SeasonAutomationTest')
+data.setCell(1, 3, 31671);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'oneCanLoginSeason')
+data.setCell(2, 2, 'com.epam.testing.SeasonAutomationTest')
+data.setCell(2, 3, 26962);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'oneCanMarkOfSeries')
+data.setCell(3, 2, 'com.epam.testing.SeasonAutomationTest')
+data.setCell(3, 3, 26935);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'oneCanSearch')
+data.setCell(4, 2, 'com.epam.testing.SeasonAutomationTest')
+data.setCell(4, 3, 26875);
+window.suiteTableData['com.epam.testing.SeasonAutomationTest']= { tableData: data, tableDiv: 'times-div-com.epam.testing.SeasonAutomationTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-com.epam.testing.SeasonAutomationTest">
+              </div> <!-- times-div-com.epam.testing.SeasonAutomationTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-com.epam.testing.SeasonAutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for com.epam.testing.SeasonAutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-com.epam.testing.SeasonAutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-com.epam.testing.SeasonAutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.testing.SeasonAutomationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">oneCanAddComment</span>
+                <span class="method-start">23061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">54732 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">oneCanDeleteMark</span>
+                <span class="method-start">73339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">119408 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">119427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">oneCanLoginSeason</span>
+                <span class="method-start">135818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">162803 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">171306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">oneCanMarkOfSeries</span>
+                <span class="method-start">199699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">226635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">227259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">oneCanSearch</span>
+                <span class="method-start">244518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">271393 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

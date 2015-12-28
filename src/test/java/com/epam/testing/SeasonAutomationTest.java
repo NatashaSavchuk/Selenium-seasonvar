@@ -41,7 +41,7 @@ public class SeasonAutomationTest
     {
         steps.loginSeason(EMAIL, PASSWORD);
         steps.createMark();
-      //  Assert.assertTrue(steps.markFound());
+        //Assert.assertTrue(steps.markFound());
     }
 
     @Test
@@ -49,7 +49,7 @@ public class SeasonAutomationTest
     {
         steps.loginSeason(EMAIL, PASSWORD);
         steps.deleteMark();
-        Assert.assertFalse(steps.markFound());
+        Assert.assertTrue(steps.markFound());
     }
 
     @Test

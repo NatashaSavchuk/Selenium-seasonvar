@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 public class Comment extends AbstractPage
 {
     private final Logger logger = Logger.getLogger(LoginPage.class);
-    private final String BASE_URL = "http://svc.seasonvar.ru/2188444526b19e750280237b5f8d28aa/thread/serial-12504-Strela-4-season.html";
+    private final String BASE_URL = "http://svc.seasonvar.ru/1e50e35aa59270f915d1c9985e32127f/thread/serial-12504-Strela-4-season.html";
 
     @FindBy(xpath = "//textarea[@id='svc_new']")
     private WebElement fieldOfComment;

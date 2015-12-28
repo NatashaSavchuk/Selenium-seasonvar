@@ -49,7 +49,7 @@ public class SeasonAutomationTest
     {
         steps.loginSeason(EMAIL, PASSWORD);
         steps.deleteMark();
-        Assert.assertTrue(steps.markFound());
+        Assert.assertFalse(steps.markFound());
     }
 
     @Test

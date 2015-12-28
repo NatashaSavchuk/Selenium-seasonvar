@@ -5,9 +5,12 @@
     <classes>
       <class name="com.epam.testing.SeasonAutomationTest">
         <methods>
+          <include name="oneCanMarkOfSeries"/>
           <include name="oneCanDeleteMark"/>
           <include name="oneCanAddComment"/>
           <include name="stopBrowser"/>
+          <include name="oneCanSearch"/>
+          <include name="oneCanLoginSeason"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.epam.testing.SeasonAutomationTest -->

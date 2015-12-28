@@ -48,8 +48,9 @@ public class SeasonAutomationTest
     public void oneCanDeleteMark()
     {
         steps.loginSeason(EMAIL, PASSWORD);
+        steps.createMark();
         steps.deleteMark();
-        Assert.assertTrue(steps.markFound());
+        Assert.assertFalse(steps.markFound());
     }
 
     @Test

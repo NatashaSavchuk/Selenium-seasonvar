@@ -50,7 +50,7 @@ public class PausePage extends AbstractPage
     public boolean markOfSeries()
     {
         try{
-            WebElement element = driver.findElement(By.xpath("//div[@id='statpause12504']"));
+            WebElement element = driver.findElement(By.xpath("//img[@class='pauseDel ']"));
         }
         catch (NoSuchElementException e){
             return false;

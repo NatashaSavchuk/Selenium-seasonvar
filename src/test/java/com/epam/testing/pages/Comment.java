@@ -34,7 +34,7 @@ public class Comment extends AbstractPage
 
     public void addComment()
     {
-        fieldOfComment.sendKeys("Последний сезон намного лучше предыдущих. Жду окончания хиатуса");
+        fieldOfComment.sendKeys("Very good series. I'm waiting for new chapter ");
         buttonOfComment.click();
         logger.info("Comment added");
     }

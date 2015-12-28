@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,  3 skipped,  1 passed</span>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,34 +101,15 @@
                     <div class="method-list-content failed suite-com.epam.testing.SeasonAutomationTest">
                       <span>
                         <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanAddComment">oneCanAddComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanDeleteMark">oneCanDeleteMark</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-com.epam.testing.SeasonAutomationTest -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-com.epam.testing.SeasonAutomationTest" class="hide-methods skipped suite-com.epam.testing.SeasonAutomationTest"> (hide)</a> <!-- hide-methods skipped suite-com.epam.testing.SeasonAutomationTest -->
-                      <a href="#" panel-name="suite-com.epam.testing.SeasonAutomationTest" class="show-methods skipped suite-com.epam.testing.SeasonAutomationTest"> (show)</a> <!-- show-methods skipped suite-com.epam.testing.SeasonAutomationTest -->
-                    </span>
-                    <div class="method-list-content skipped suite-com.epam.testing.SeasonAutomationTest">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanLoginSeason">oneCanLoginSeason</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanMarkOfSeries">oneCanMarkOfSeries</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanSearch">oneCanSearch</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-com.epam.testing.SeasonAutomationTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -139,7 +120,17 @@
                     <div class="method-list-content passed suite-com.epam.testing.SeasonAutomationTest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanAddComment">oneCanAddComment</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanLoginSeason">oneCanLoginSeason</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanMarkOfSeries">oneCanMarkOfSeries</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.epam.testing.SeasonAutomationTest" title="com.epam.testing.SeasonAutomationTest" hash-for-method="oneCanSearch">oneCanSearch</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com.epam.testing.SeasonAutomationTest -->
@@ -162,14 +153,55 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="oneCanAddComment">
+                  </a> <!-- oneCanAddComment -->
+                  <span class="method-name">oneCanAddComment</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Command duration or timeout: 60.03 seconds
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;10.160.0.240&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 797789e9-f808-4c38-ad04-d454c776e0bb
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at com.epam.testing.pages.LoginPage.login(LoginPage.java:43)
+	at com.epam.testing.steps.Steps.loginSeason(Steps.java:36)
+	at com.epam.testing.SeasonAutomationTest.oneCanAddComment(SeasonAutomationTest.java:58)
+Caused by: org.openqa.selenium.TimeoutException: Timed out waiting for page load.
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;10.160.0.240&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.Utils.installClickListener/e&lt;(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous8109935364685293346webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9269)
+	at &lt;anonymous class&gt;.WebLoadingListener/e(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous8109935364685293346webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:5114)
+	at &lt;anonymous class&gt;.WebLoadingListener/&lt;(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous8109935364685293346webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:5122)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous8109935364685293346webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+... Removed 41 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="oneCanDeleteMark">
                   </a> <!-- oneCanDeleteMark -->
                   <span class="method-name">oneCanDeleteMark</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;pauseDel &apos;]&quot;}
+Command duration or timeout: 60.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
-System info: host: &apos;NataliaP&apos;, ip: &apos;192.168.1.212&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+System info: host: &apos;NataliaP&apos;, ip: &apos;10.160.0.240&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9bdfd469-e5ee-49a6-abfc-0d959211f71a
+*** Element info: {Using=xpath, value=//img[@class=&apos;pauseDel &apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
@@ -178,47 +210,24 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy5.click(Unknown Source)
 	at com.epam.testing.pages.PausePage.markOfDelete(PausePage.java:46)
-	at com.epam.testing.steps.Steps.deleteMark(Steps.java:70)
+	at com.epam.testing.steps.Steps.deleteMark(Steps.java:80)
 	at com.epam.testing.SeasonAutomationTest.oneCanDeleteMark(SeasonAutomationTest.java:51)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	... 43 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
-	... 58 more
-... Removed 33 stack frames
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;pauseDel &apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;NataliaP&apos;, ip: &apos;10.160.0.240&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous221816332172264769webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/836D~1/AppData/Local/Temp/anonymous221816332172264769webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-com.epam.testing.SeasonAutomationTest-class-failed -->
-          <div class="suite-com.epam.testing.SeasonAutomationTest-class-skipped">
+          <div class="suite-com.epam.testing.SeasonAutomationTest-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.epam.testing.SeasonAutomationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -243,21 +252,6 @@ Caused by: java.net.ConnectException: Connection refused: connect
                   <a name="oneCanSearch">
                   </a> <!-- oneCanSearch -->
                   <span class="method-name">oneCanSearch</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.epam.testing.SeasonAutomationTest-class-skipped -->
-          <div class="suite-com.epam.testing.SeasonAutomationTest-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.epam.testing.SeasonAutomationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="oneCanAddComment">
-                  </a> <!-- oneCanAddComment -->
-                  <span class="method-name">oneCanAddComment</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -317,28 +311,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'oneCanDeleteMark')
 data.setCell(0, 2, 'com.epam.testing.SeasonAutomationTest')
-data.setCell(0, 3, 29005);
+data.setCell(0, 3, 145613);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'oneCanAddComment')
 data.setCell(1, 2, 'com.epam.testing.SeasonAutomationTest')
-data.setCell(1, 3, 12497);
+data.setCell(1, 3, 74866);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'oneCanMarkOfSeries')
 data.setCell(2, 2, 'com.epam.testing.SeasonAutomationTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 60557);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'oneCanSearch')
+data.setCell(3, 1, 'oneCanLoginSeason')
 data.setCell(3, 2, 'com.epam.testing.SeasonAutomationTest')
-data.setCell(3, 3, 1);
+data.setCell(3, 3, 46568);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'oneCanLoginSeason')
+data.setCell(4, 1, 'oneCanSearch')
 data.setCell(4, 2, 'com.epam.testing.SeasonAutomationTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 3, 21705);
 window.suiteTableData['com.epam.testing.SeasonAutomationTest']= { tableData: data, tableDiv: 'times-div-com.epam.testing.SeasonAutomationTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-com.epam.testing.SeasonAutomationTest">
               </div> <!-- times-div-com.epam.testing.SeasonAutomationTest -->
             </div> <!-- times-div -->
@@ -370,41 +364,65 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">oneCanAddComment</span>
-                <span class="method-start">11256 ms</span>
+                <span class="method-start">34728 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">23754 ms</span>
+                <span class="method-start">109654 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">23876 ms</span>
+                <span class="method-start">126471 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">oneCanDeleteMark</span>
-                <span class="method-start">32763 ms</span>
+                <span class="method-start">146066 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">stopBrowser</span>
-                <span class="method-start">61837 ms</span>
+                <span class="method-start">291690 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">291796 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">oneCanLoginSeason</span>
-                <span class="method-start">62864 ms</span>
+                <span class="method-start">303313 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">349881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">349891 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">oneCanMarkOfSeries</span>
-                <span class="method-start">62867 ms</span>
+                <span class="method-start">363661 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">424218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">424736 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">oneCanSearch</span>
-                <span class="method-start">62870 ms</span>
+                <span class="method-start">446399 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">stopBrowser</span>
+                <span class="method-start">468104 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

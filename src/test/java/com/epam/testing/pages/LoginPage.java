@@ -18,7 +18,7 @@ public class LoginPage extends AbstractPage
     @FindBy(xpath = "//input[@value='pass']")
     private WebElement inputPassword;
 
-    @FindBy(xpath = "//input[@value='Войти']")
+    @FindBy(xpath = "//input[@type='submit']")
     private WebElement buttonSubmit;
 
     @FindBy(xpath = "//div[contains(text(), 'testselen2015@yandex.ru')]")
